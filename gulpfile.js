@@ -22,9 +22,11 @@ function statrt() {
         gulp.watch(path[i]).on('change', browserSync.reload);
     }
 }
+
 function clean(cb) {
     return del(['dist'], cb);
 }
+
 function html() {
     var options = {
         collapseWhitespace: true,
@@ -50,9 +52,9 @@ function css() {
     return gulp.src('assets/css/*.css')
         .pipe(cssmin())
         .pipe(gulp.dest(outputFileName + 'assets/css'))
-        /* .pipe(rename({
-           suffix: 'min' // 重命名为style.min.css
-       }))*/
+    /* .pipe(rename({
+       suffix: 'min' // 重命名为style.min.css
+   }))*/
 }
 
 function js() {
