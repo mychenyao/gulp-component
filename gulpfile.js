@@ -50,7 +50,7 @@ function css() {
     return gulp.src('assets/css/*.css')
         .pipe(cssmin())
         .pipe(gulp.dest(outputFileName + 'assets/css'))
-    /*   .pipe(rename({
+        /* .pipe(rename({
            suffix: 'min' // 重命名为style.min.css
        }))*/
 }
