@@ -59,6 +59,7 @@ function js() {
     return gulp.src('assets/js/*.js').pipe(gulpBalel({presets: ['env']}))
         .pipe(gulpJsmin()).pipe(gulp.dest(outputFileName + 'assets/js'))
 }
+
 module.exports.statrt = gulp.series(statrt);
 module.exports.default = gulp.series(
     clean,
