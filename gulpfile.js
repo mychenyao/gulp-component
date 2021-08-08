@@ -51,7 +51,7 @@ function css() {
         .pipe(cssmin())
         .pipe(gulp.dest(outputFileName + 'assets/css'))
     /*   .pipe(rename({
-           suffix: 'min' //rename只是给上一步骤产出的压缩的styles.css重命名为style.min.css
+           suffix: 'min' // 重命名为style.min.css
        }))*/
 }
 
