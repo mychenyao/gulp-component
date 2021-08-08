@@ -60,7 +60,6 @@ function js() {
         .pipe(gulpJsmin()).pipe(gulp.dest(outputFileName + 'assets/js'))
 }
 
-
 module.exports.statrt = gulp.series(statrt);
 module.exports.default = gulp.series(
     clean,
