@@ -1,0 +1,145 @@
+body,
+html {
+  font-size: calc(100vw / 960 * 100);
+}
+#hero {
+  box-sizing: border-box;
+  height: 5.5rem;
+}
+#hero .hero_content span {
+  font-size: 0.6rem;
+}
+#hero .hero_content p {
+  font-size: 0.3rem;
+}
+#hero .hero_content .line_red::after {
+  height: 0.04rem;
+}
+.zr_container > .section-title > h2 {
+  font-size: 0.24rem;
+}
+.zr_container > .section-title > h2::after {
+  height: 0.06rem;
+}
+.zr_container .gy_card span {
+  font-size: 0.24rem;
+}
+.zr_container .gy_card .gy_font {
+  font-size: 0.36rem;
+}
+.zr_container .gy_content {
+  flex-direction: column;
+}
+.zr_container .gy_content .gy_card_img {
+  width: 100%;
+  margin-top: 0.28rem;
+}
+.zr_container .icon-box {
+  padding: 0.4rem;
+}
+.zr_container .icon-box h4,
+.zr_container .icon-box div {
+  display: flex;
+}
+.zr_container .icon-box h4 > a {
+  font-size: 0.24rem;
+  display: flex;
+}
+.zr_container .icon-box p {
+  font-size: 0.16rem;
+}
+.cta .zr_container .zr_col h3 {
+  font-size: 0.48rem;
+  margin-bottom: 0.18rem;
+}
+.cta .zr_container .zr_col p {
+  font-size: 0.24rem;
+  margin-bottom: 0;
+}
+.cta .zr_container .zr_col .consult .iconfont {
+  font-size: 0.42rem;
+}
+.cta .zr_container .zr_col .consult span {
+  font-size: 0.14rem;
+}
+.team .footer_bg {
+  width: 100vw;
+}
+.team .zr_container > .row > .mgt20 {
+  margin-top: 0.2rem;
+}
+.team .zr_container .member {
+  padding: 0.4rem;
+}
+.team .zr_container .member .pic {
+  width: 0.8rem;
+}
+.team .zr_container .member .member-info h4 {
+  font-size: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.team .zr_container .member .member-info p {
+  font-size: 0.14rem;
+  margin-bottom: 0;
+}
+.team #footer .footer-top .zr_container h3,
+.team #footer .footer-top .zr_container h4 {
+  font-size: 0.2rem;
+  margin-bottom: 0.16rem;
+}
+.team #footer .footer-top .zr_container .footer-links,
+.team #footer .footer-top .zr_container .footer-contact {
+  margin-bottom: 0.3rem;
+}
+.team #footer .footer-top .zr_container .social-links {
+  width: 100%;
+}
+.team #footer .footer-top .zr_container .social-links .logo {
+  width: 2.38rem;
+  height: auto;
+}
+.team #footer .footer-top .zr_container .social-links p {
+  font-size: 0.17rem;
+  margin-bottom: 0.3rem;
+}
+.team #footer .footer-top .zr_container .footer-contact p {
+  font-size: 0.14rem;
+}
+.team #footer .footer-top .zr_container .footer-contact span {
+  font-size: 0.14rem;
+}
+.team #footer .footer-top .zr_container .footer_code p {
+  font-size: 0.17rem;
+}
+.team #footer .footer-top .zr_container .footer_code img {
+  width: 1rem;
+  height: 1rem;
+}
+.team #footer .footer-bottom {
+  padding: 0.2rem 0;
+}
+.team #footer .footer-bottom .copyright {
+  text-align: left;
+  font-size: 0.14rem;
+}
+.services > .zr_container > .row > .mgt20 {
+  margin-top: 0.2rem;
+}
+.navigation {
+  padding-bottom: 0.36rem;
+  padding-top: 0.36rem;
+}
+.navigation > div a {
+  font-size: 0.14rem;
+}
+.navigation > div a > .iconfont {
+  font-size: 0.4rem;
+}
+.navigation > div > .iconfont {
+  font-size: 0.4rem;
+}
+.navigation > div p {
+  font-size: 0.14rem;
+  margin-bottom: 0.28rem;
+}
+/*# sourceMappingURL=mobile.css.map */
