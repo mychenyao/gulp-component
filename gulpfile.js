@@ -8,19 +8,18 @@ var outputFileName = 'dist/'
 var del = require('del');
 var browserSync = require('browser-sync').create()
 
-function statrt() {
+function start() {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./",
+            index: 'index.html'
         }
     })
-    var path = [
+    var globs = [
         './assets/*/*.*',
-        './*.html',
+        './*.html'
     ]
-    for (var i = 0; i < path.length; i++) {
-        gulp.watch(path[i]).on('change', browserSync.reload);
-    }
+    gulp.watch(globs).on('change', browserSync.reload)
 }
 
 function clean(cb) {
@@ -62,7 +61,7 @@ function js() {
         .pipe(gulpJsmin()).pipe(gulp.dest(outputFileName + 'assets/js'))
 }
 
-module.exports.statrt = gulp.series(statrt);
+module.exports.start = gulp.series(start);
 module.exports.default = gulp.series(
     clean,
     lib,
