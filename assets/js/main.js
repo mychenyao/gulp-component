@@ -66,7 +66,6 @@
   const scrollto = (el) => {
     let header = select('#header')
     let offset = header.offsetHeight
-
     let elementPos = select(el).offsetTop
     window.scrollTo({
       top: elementPos - offset,
@@ -131,7 +130,6 @@
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
       e.preventDefault()
-
       let navbar = select('#navbar')
       if (navbar.classList.contains('navbar-mobile')) {
         navbar.classList.remove('navbar-mobile')
@@ -228,19 +226,19 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+  // new Swiper('.portfolio-details-slider', {
+  //   speed: 400,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false
+  //   },
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   }
+  // });
 
   /**
    * Animation on scroll
